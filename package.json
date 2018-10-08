@@ -1,0 +1,17 @@
+{
+  "name": "nodeServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor server.js"
+  },
+  "author": "wangmw",
+  "license": "ISC",
+  "devDependencies": {
+    "ejs": "^2.5.7",
+    "formidable": "^1.1.1",
+    "silly-datetime": "^0.1.2"
+  }
+}
