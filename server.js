@@ -14,7 +14,7 @@ let formidable = require('formidable');
 let router = require('./router');
 
 let host = '127.0.0.1';
-let port = 8080;
+let port = 80;
  
 // 创建一个服务
 let httpServer = http.createServer((req, res) => {
