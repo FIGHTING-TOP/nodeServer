@@ -13,7 +13,7 @@ let formidable = require('formidable');
 
 let router = require('./router');
 
-let host = '127.0.0.1';
+let host = '0.0.0.0';
 let port = 80;
  
 // 创建一个服务
@@ -170,6 +170,6 @@ function redirect(){
 
 //在指定的端口监听
 httpServer.listen(port, host, () => {
-  console.log('服务器已经运行，请打开浏览器，输入：http://'+host+':'+port+'/来访问');
+  console.log(`Your application is running here: http://localhost:${port}`);
   console.timeEnd('[HttpServer][Start]')
 })
